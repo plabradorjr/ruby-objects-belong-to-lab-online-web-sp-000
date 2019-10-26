@@ -1,10 +1,10 @@
 class Song
 
-attr_accessor :title, :artist 
+attr_accessor :title, :artist
 
-# def initialize(yourmom)
-#   @title = yourmom
-# end
+def initialize(yourmom = "Beyonce")
+  @title = yourmom
+end
 
 
 
